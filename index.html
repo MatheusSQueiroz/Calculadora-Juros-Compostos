@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Juros compostos</title>
+</head>
+<body>
+    <main id="container">
+        <div id="calculator">
+            <h2>
+                Calculadora de juros compostos
+            </h2>
+            <div id="input-box">
+                <div class="input-field">
+                    <label for="value">Valor Inicial(capital)</label>
+                    <input type="number" id="value">
+                </div>
+
+                <div class="input-field">
+                    <label for="fee">Taxa de juros a.m:</label>
+                    <input type="number" id="fee">
+                </div>
+
+                <div class="input-field">
+                    <label for="time">Tempo de rendimento a.m:</label>
+                    <input type="number" id="time">
+                </div>
+            </div>
+            <div id="result">
+                <h4>Resultado:</h4>
+                <span id="total">
+                    R$ 0,00
+                </span>
+            </div>
+            <button id="calculate">
+                Calcular
+            </button>
+        </div>
+        <footer>
+            <a href="https://www.linkedin.com/in/matheusqrz/" target="_blank" class="footer-link" id="Linkedin">
+                <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i>
+            </a>
+    
+            <a href="https://github.com/MatheusSQueiroz" target="_blank" class="footer-link" id="Github">
+                <i class="fa-brands fa-square-github fa-2xl" style="color: #ffffff;"></i>
+            </a>
+    </footer>
+    </main>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
